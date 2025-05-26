@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskEasy - Day 5: US4 Delete Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <h1 class="logo">TaskEasy</h1>
+                <div class="stats" id="taskStats">0 tasks</div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <div class="container">
+                <!-- US1: Add Task Form -->
+                <div class="add-task">
+                    <div class="feature-header">
+                        <h2 id="formTitle">Create New Task</h2>
+                        <div class="feature-badges">
+                            <span class="feature-badge">US1: Complete ✅</span>
+                            <span class="feature-badge">US2: Complete ✅</span>
+                            <span class="feature-badge">US3: Complete ✅</span>
+                            <span class="feature-badge current">US4: Day 5 🔄</span>
+                        </div>
+                    </div>
+                    
+                    <form id="taskForm" class="task-form">
+                        <input 
+                            type="text" 
+                            id="taskTitle" 
+                            placeholder="What needs to be done?" 
+                            required 
+                            class="task-input"
+                            maxlength="100"
+                        >
+                        
+                        <div class="form-row">
+                            <select id="taskPriority" class="task-select">
+                                <option value="high">🔴 High Priority</option>
+                                <option value="medium" selected>🟡 Medium Priority</option>
+                                <option value="low">🟢 Low Priority</option>
+                            </select>
+                            
+                            <select id="taskStatus" class="task-select">
+                                <option value="to-do" selected>📋 To Do</option>
+                                <option value="in-progress">⚡ In Progress</option>
+                                <option value="done">✅ Done</option>
+                            </select>
+                            
+                            <button type="submit" class="add-btn" id="submitBtn">Create Task</button>
+                            <button type="button" class="cancel-btn" id="cancelBtn" style="display: none;">Cancel</button>
+                        </div>
+                        
+                        <textarea 
+                            id="taskDescription" 
+                            placeholder="Description (optional)" 
+                            class="task-textarea"
+                            rows="2"
+                        ></textarea>
+                    </form>
+                </div>
+
+                <!-- Task List with Edit Functionality -->
+                <div class="task-list">
+                    <div class="section-header">
+                        <h3>Your Tasks (Sorted by Priority)</h3>
+                        <div class="priority-info">
+                            <small>🔴 High → 🟡 Medium → 🟢 Low</small>
+                            <div class="feature-status">
+                                <small>✅ Priority Sorting (US2)</small>
+                                <small>✅ Edit Tasks (US3)</small>
+                                <small>🔄 Delete Tasks (US4 - Day 5)</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="taskList" class="tasks">
+                        <div class="empty-state">
+                            <div class="empty-icon">📝</div>
+                            <p>No tasks yet. Create your first task above!</p>
+                            <small>Tasks will be automatically sorted by priority: High → Medium → Low</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
