@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskEasy - Day 2: US1 Create Task</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <h1 class="logo">TaskEasy</h1>
+                <div class="stats" id="taskStats">0 tasks</div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <div class="container">
+                <!-- US1: Add Task Form -->
+                <div class="add-task">
+                    <div class="feature-header">
+                        <h2>Create New Task</h2>
+                        <span class="feature-badge">US1: Day 2</span>
+                    </div>
+                    
+                    <form id="taskForm" class="task-form">
+                        <input 
+                            type="text" 
+                            id="taskTitle" 
+                            placeholder="What needs to be done?" 
+                            required 
+                            class="task-input"
+                            maxlength="100"
+                        >
+                        
+                        <div class="form-row">
+                            <select id="taskPriority" class="task-select">
+                                <option value="high">🔴 High Priority</option>
+                                <option value="medium" selected>🟡 Medium Priority</option>
+                                <option value="low">🟢 Low Priority</option>
+                            </select>
+                            
+                            <select id="taskStatus" class="task-select">
+                                <option value="to-do" selected>📋 To Do</option>
+                                <option value="in-progress">⚡ In Progress</option>
+                                <option value="done">✅ Done</option>
+                            </select>
+                            
+                            <button type="submit" class="add-btn">Create Task</button>
+                        </div>
+                        
+                        <textarea 
+                            id="taskDescription" 
+                            placeholder="Description (optional)" 
+                            class="task-textarea"
+                            rows="2"
+                        ></textarea>
+                    </form>
+                </div>
+
+                <!-- Task List - Read Only for Day 2 -->
+                <div class="task-list">
+                    <div class="section-header">
+                        <h3>Your Tasks</h3>
+                        <div class="coming-soon">
+                            <small>🔄 Sorting (US2 - Day 3)</small>
+                            <small>✏️ Edit (US3 - Day 4)</small>
+                            <small>🗑️ Delete (US4 - Day 4)</small>
+                        </div>
+                    </div>
+                    
+                    <div id="taskList" class="tasks">
+                        <div class="empty-state">
+                            <div class="empty-icon">📝</div>
+                            <p>No tasks yet. Create your first task above!</p>
+                            <small>Only CREATE functionality available in Day 2</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
