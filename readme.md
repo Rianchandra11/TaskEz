@@ -4,11 +4,13 @@ TaskEasy adalah aplikasi manajemen tugas sederhana yang dibangun menggunakan pra
 
 ## 🔧 Fitur Utama (Planned)
 
-- ✅ **Day 1**: Setup Project, pembuatan user story dan perencanaan
+- ✅ **Day 1**: Project setup dan perencanaan
 - ✅ **Day 2**: Membuat tugas dengan judul, deskripsi, prioritas (US1)
 - ✅ **Day 3**: Melihat daftar tugas yang diurutkan berdasarkan prioritas (US2)
-- ✅ **Day 4**: Memperbarui dan menghapus tugas (US3 & US4)
-- 🔄 **Day 5**: Dokumentasi dan persiapan presentasi
+- ✅ **Day 4**: Memperbarui status dan detail tugas (US3)
+- 🔄 **Day 5**: Menghapus tugas dengan konfirmasi (US4)
+- 🔄 **Day 6**: UI/UX Modern + Merge to Main + Deploy
+- 🔄 **Day 7**: Presentasi dan Demo
 
 ## 🛠️ Teknologi yang Digunakan
 
