@@ -130,4 +130,4 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 
 _Dibuat dengan ❤️ menggunakan Extreme Programming practices_
 
-**Next:** _Next:_ Ready untuk Day 3 - Mengerjakan US2 dan melakukan refactoring! 🚀
+_Next:_ Ready untuk Day 3 - Mengerjakan US2 dan melakukan refactoring! 🚀
