@@ -29,7 +29,6 @@ TaskEasy adalah aplikasi manajemen tugas sederhana yang dibangun menggunakan pra
 | Hari 4 | Rian   | Robi      | Zein     | US3: Update Tasks     |
 | Hari 5 | Zein   | Rian      | Robi     | US4: Delete Tasks     |
 | Hari 6 | Robi   | Zein      | Rian     | Modern UI/UX + Deploy |
-| Hari 7 | Rian   | Robi      | Zein     | Presentasi & Demo     |
 
 ## 🚀 Memulai Proyek
 
