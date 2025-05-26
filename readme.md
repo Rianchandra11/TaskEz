@@ -58,7 +58,7 @@ npm run test:watch
 | US1 | Sebagai pengguna, saya dapat membuat tugas dengan judul, deskripsi, prioritas         | Tinggi    | 3           | ✅     |
 | US2 | Sebagai pengguna, saya dapat melihat semua tugas yang diurutkan berdasarkan prioritas | Tinggi    | 2           | ✅     |
 | US3 | Sebagai pengguna, saya dapat memperbarui status dan detail tugas                      | Sedang    | 2           | ✅     |
-| US4 | Sebagai pengguna, saya dapat menghapus tugas                                          | Rendah    | 1           | ✅     |
+| US4 | Sebagai pengguna, saya dapat menghapus tugas                                          | Rendah    | 1           | 🔄     |
 
 ## 📆 Rencana Sprint
 
