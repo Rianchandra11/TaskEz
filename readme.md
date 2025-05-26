@@ -21,13 +21,15 @@ TaskEasy adalah aplikasi manajemen tugas sederhana yang dibangun menggunakan pra
 
 ## 👥 Peran dalam Pair Programming
 
-| Hari   | Driver | Navigator | Reviewer |
-| ------ | ------ | --------- | -------- |
-| Hari 1 | Setup  | Planning  | Review   |
-| Hari 2 | Zein   | Rian      | Robi     |
-| Hari 3 | Robi   | Zein      | Rian     |
-| Hari 4 | Rian   | Robi      | Zein     |
-| Hari 5 | Zein   | Rian      | Robi     |
+| Hari   | Driver | Navigator | Reviewer | Focus                 |
+| ------ | ------ | --------- | -------- | --------------------- |
+| Hari 1 | Setup  | Planning  | Review   | Project Setup         |
+| Hari 2 | Zein   | Rian      | Robi     | US1: Create Tasks     |
+| Hari 3 | Robi   | Zein      | Rian     | US2: Priority Sorting |
+| Hari 4 | Rian   | Robi      | Zein     | US3: Update Tasks     |
+| Hari 5 | Zein   | Rian      | Robi     | US4: Delete Tasks     |
+| Hari 6 | Robi   | Zein      | Rian     | Modern UI/UX + Deploy |
+| Hari 7 | Rian   | Robi      | Zein     | Presentasi & Demo     |
 
 ## 🚀 Memulai Proyek
 
