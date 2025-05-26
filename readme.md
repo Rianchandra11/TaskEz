@@ -63,13 +63,15 @@ npm run test:watch
 
 ## 📆 Rencana Sprint
 
-| Hari | Target Kegiatan                                           | Status |
-| ---- | --------------------------------------------------------- | ------ |
-| 1    | Menyiapkan proyek, repositori, dan perencanaan user story | ✅     |
-| 2    | Mengerjakan US1 dengan pendekatan TDD                     | ✅     |
-| 3    | Mengerjakan US2 dan melakukan refactoring                 | ✅     |
-| 4    | Mengerjakan US3 & US4, pengujian, dan deploy              | ✅     |
-| 5    | Penyelesaian dokumentasi dan finalisasi presentasi        | 🔄     |
+| Hari | Target Kegiatan                                           | Status | Deliverables                        |
+| ---- | --------------------------------------------------------- | ------ | ----------------------------------- |
+| 1    | Menyiapkan proyek, repositori, dan perencanaan user story | ✅     | Project setup, planning docs        |
+| 2    | Mengerjakan US1 dengan pendekatan TDD                     | ✅     | Create task functionality           |
+| 3    | Mengerjakan US2 dan melakukan refactoring                 | ✅     | Priority sorting, visual indicators |
+| 4    | Mengerjakan US3 dengan edit mode                          | ✅     | Update task functionality           |
+| 5    | Mengerjakan US4 dengan delete confirmation                | 🔄     | Delete task functionality           |
+| 6    | Modern UI/UX + Merge to Main + Deploy                     | 🔄     | Production-ready app                |
+| 7    | Presentasi dan demo aplikasi                              | 🔄     | Final presentation                  |
 
 ---
 
@@ -90,25 +92,45 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 
 - **Peran Pair Programming:** Zein (Driver), Rian (Navigator), Robi (Reviewer)
 - **Target:** Pembuatan fitur tambah tugas dengan pendekatan TDD
-- **Selanjutnya:** Fitur daftar tugas dan sorting berdasarkan prioritas
+- **Hasil:** US1 berhasil diimplementasi dengan validasi lengkap
+- **Test Coverage:** 85%
+- **Selanjutnya:** Menampilkan daftar tugas berdasarkan prioritas
 
 ### Hari 3 ✅
 
 - **Peran Pair Programming:** Robi (Driver), Zein (Navigator), Rian (Reviewer)
-- **Target:** Fitur daftar tugas dan sorting berdasarkan prioritas
-- **Selanjutnya:** Implementasi fitur update dan delete
+- **Target:** US2 - Fitur sorting berdasarkan prioritas + refactoring
+- **Hasil:** Priority sorting dengan visual indicators
+- **Test Coverage:** 92%
+- **Selanjutnya:** Implementasi fitur update
 
 ### Hari 4 ✅
 
 - **Peran Pair Programming:** Rian (Driver), Robi (Navigator), Zein (Reviewer)
-- **Target:** Implementasi update dan delete, refactoring
-- **Selanjutnya:** Persiapan deploy dan dokumentasi
+- **Target:** US3 - Implementasi fitur update tugas
+- **Hasil:** Edit mode dengan form integration
+- **Test Coverage:** 88%
+- **Selanjutnya:** Implementasi fitur delete
 
 ### Hari 5 🔄
 
 - **Peran Pair Programming:** Zein (Driver), Rian (Navigator), Robi (Reviewer)
-- **Target:** Penyelesaian dokumentasi dan finalisasi presentasi
-- **Selanjutnya:** Presentasi proyek
+- **Target:** US4 - Implementasi fitur delete tugas
+- **Hasil:** Delete dengan confirmation modal + bulk operations
+- **Test Coverage:** 90%
+- **Selanjutnya:** Modern UI/UX improvements + deploy
+
+### Hari 6 🔄
+
+- **Peran Pair Programming:** Robi (Driver), Zein (Navigator), Rian (Reviewer)
+- **Target:** Modern UI/UX design + merge to main + deploy
+- **Rencana:**
+  - Redesign dengan modern minimalist approach
+  - Dark mode implementation
+  - Enhanced mobile experience
+  - Merge semua branches ke main
+  - Deploy ke production
+- **Selanjutnya:** Persiapan presentasi
 
 ---
 
