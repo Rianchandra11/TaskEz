@@ -7,7 +7,7 @@ TaskEasy adalah aplikasi manajemen tugas sederhana yang dibangun menggunakan pra
 - ✅ **Day 1**: Setup Project, pembuatan user story dan perencanaan
 - ✅ **Day 2**: Membuat tugas dengan judul, deskripsi, prioritas (US1)
 - ✅ **Day 3**: Melihat daftar tugas yang diurutkan berdasarkan prioritas (US2)
-- 🔄 **Day 4**: Memperbarui dan menghapus tugas (US3 & US4)
+- ✅ **Day 4**: Memperbarui dan menghapus tugas (US3 & US4)
 - 🔄 **Day 5**: Dokumentasi dan persiapan presentasi
 
 ## 🛠️ Teknologi yang Digunakan
@@ -54,8 +54,8 @@ npm run test:watch
 | --- | ------------------------------------------------------------------------------------- | --------- | ----------- | ------ |
 | US1 | Sebagai pengguna, saya dapat membuat tugas dengan judul, deskripsi, prioritas         | Tinggi    | 3           | ✅     |
 | US2 | Sebagai pengguna, saya dapat melihat semua tugas yang diurutkan berdasarkan prioritas | Tinggi    | 2           | ✅     |
-| US3 | Sebagai pengguna, saya dapat memperbarui status dan detail tugas                      | Sedang    | 2           | 🔄     |
-| US4 | Sebagai pengguna, saya dapat menghapus tugas                                          | Rendah    | 1           | 🔄     |
+| US3 | Sebagai pengguna, saya dapat memperbarui status dan detail tugas                      | Sedang    | 2           | ✅     |
+| US4 | Sebagai pengguna, saya dapat menghapus tugas                                          | Rendah    | 1           | ✅     |
 
 ## 📆 Rencana Sprint
 
@@ -64,7 +64,7 @@ npm run test:watch
 | 1    | Menyiapkan proyek, repositori, dan perencanaan user story | ✅     |
 | 2    | Mengerjakan US1 dengan pendekatan TDD                     | ✅     |
 | 3    | Mengerjakan US2 dan melakukan refactoring                 | ✅     |
-| 4    | Mengerjakan US3 & US4, pengujian, dan deploy              | 🔄     |
+| 4    | Mengerjakan US3 & US4, pengujian, dan deploy              | ✅     |
 | 5    | Penyelesaian dokumentasi dan finalisasi presentasi        | 🔄     |
 
 ---
@@ -94,7 +94,7 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 - **Target:** Fitur daftar tugas dan sorting berdasarkan prioritas
 - **Selanjutnya:** Implementasi fitur update dan delete
 
-### Hari 4 🔄
+### Hari 4 ✅
 
 - **Peran Pair Programming:** Rian (Driver), Robi (Navigator), Zein (Reviewer)
 - **Target:** Implementasi update dan delete, refactoring
@@ -130,4 +130,4 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 
 _Dibuat dengan ❤️ menggunakan Extreme Programming practices_
 
-**Next:** Ready untuk Day 4 - US3 Implementation (Update Tasks)! 🚀
+**Next:** Ready untuk Day 5 - Dokumentasi dan persiapan presentasi 🚀
