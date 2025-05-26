@@ -86,7 +86,7 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 
 - **Peran Pair Programming:** Zein (Driver), Rian (Navigator), Robi (Reviewer)
 - **Target:** Pembuatan fitur tambah tugas dengan pendekatan TDD
-- **Selanjutnya:** Ready untuk Day 3 - Mengerjakan US2 dan melakukan refactoring! 🚀
+- **Selanjutnya:** Fitur daftar tugas dan sorting berdasarkan prioritas
 
 ### Hari 3 🔄
 
@@ -130,4 +130,4 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 
 _Dibuat dengan ❤️ menggunakan Extreme Programming practices_
 
-**Next:** Ready untuk Day 2 - US1 Implementation dengan TDD approach! 🚀
+**Next:** _Next:_ Ready untuk Day 3 - Mengerjakan US2 dan melakukan refactoring! 🚀
