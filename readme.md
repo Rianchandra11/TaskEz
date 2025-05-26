@@ -62,7 +62,7 @@ npm run test:watch
 | Hari | Target Kegiatan                                           | Status |
 | ---- | --------------------------------------------------------- | ------ |
 | 1    | Menyiapkan proyek, repositori, dan perencanaan user story | ✅     |
-| 2    | Mengerjakan US1 dengan pendekatan TDD                     | 🔄     |
+| 2    | Mengerjakan US1 dengan pendekatan TDD                     | ✅     |
 | 3    | Mengerjakan US2 dan melakukan refactoring                 | 🔄     |
 | 4    | Mengerjakan US3 & US4, pengujian, dan deploy              | 🔄     |
 | 5    | Penyelesaian dokumentasi dan finalisasi presentasi        | 🔄     |
