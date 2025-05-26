@@ -58,7 +58,7 @@ npm run test:watch
 | US1 | Sebagai pengguna, saya dapat membuat tugas dengan judul, deskripsi, prioritas         | Tinggi    | 3           | ✅     |
 | US2 | Sebagai pengguna, saya dapat melihat semua tugas yang diurutkan berdasarkan prioritas | Tinggi    | 2           | ✅     |
 | US3 | Sebagai pengguna, saya dapat memperbarui status dan detail tugas                      | Sedang    | 2           | ✅     |
-| US4 | Sebagai pengguna, saya dapat menghapus tugas                                          | Rendah    | 1           | 🔄     |
+| US4 | Sebagai pengguna, saya dapat menghapus tugas                                          | Rendah    | 1           | ✅     |
 
 ## 📆 Rencana Sprint
 
@@ -68,7 +68,7 @@ npm run test:watch
 | 2    | Mengerjakan US1 dengan pendekatan TDD                     | ✅     | Create task functionality           |
 | 3    | Mengerjakan US2 dan melakukan refactoring                 | ✅     | Priority sorting, visual indicators |
 | 4    | Mengerjakan US3 dengan edit mode                          | ✅     | Update task functionality           |
-| 5    | Mengerjakan US4 dengan delete confirmation                | 🔄     | Delete task functionality           |
+| 5    | Mengerjakan US4 dengan delete confirmation                | ✅     | Delete task functionality           |
 | 6    | Modern UI/UX + Merge to Main + Deploy                     | 🔄     | Production-ready app                |
 | 7    | Presentasi dan demo aplikasi                              | 🔄     | Final presentation                  |
 
@@ -111,7 +111,7 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 - **Test Coverage:** 88%
 - **Selanjutnya:** Implementasi fitur delete
 
-### Hari 5 🔄
+### Hari 5 ✅
 
 - **Peran Pair Programming:** Zein (Driver), Rian (Navigator), Robi (Reviewer)
 - **Target:** US4 - Implementasi fitur delete tugas
@@ -155,4 +155,4 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 
 _Dibuat dengan ❤️ menggunakan Extreme Programming practices_
 
-**Next:** Ready untuk Day 5 - Dokumentasi dan persiapan presentasi 🚀
+**Next:** Ready untuk Day 6 - Dokumentasi dan persiapan presentasi 🚀
