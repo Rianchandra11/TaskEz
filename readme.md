@@ -155,4 +155,4 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 
 _Dibuat dengan ❤️ menggunakan Extreme Programming practices_
 
-**Next:** Ready untuk Day 6 - Dokumentasi dan persiapan presentasi 🚀
+**Next:** Ready untuk Day 6 - Modern UI/UX improvements + deploy 🚀
