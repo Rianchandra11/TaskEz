@@ -82,11 +82,11 @@ Menguraikan proyek menjadi user story yang dapat dikelola dan merencanakan penge
 - **Kemajuan:** Repositori diinisialisasi, user story direncanakan
 - **Selanjutnya:** Mulai US1 dengan TDD
 
-### Hari 2 🔄
+### Hari 2 ✅
 
 - **Peran Pair Programming:** Zein (Driver), Rian (Navigator), Robi (Reviewer)
 - **Target:** Pembuatan fitur tambah tugas dengan pendekatan TDD
-- **Selanjutnya:** Menampilkan daftar tugas berdasarkan prioritas
+- **Selanjutnya:** Ready untuk Day 3 - Mengerjakan US2 dan melakukan refactoring! 🚀
 
 ### Hari 3 🔄
 
