@@ -1,0 +1,45 @@
+{
+  "name": "taskeasy",
+  "version": "1.2.0",
+  "description": "Task Management Application with Priority Sorting - Day 3: US2 Complete (Built with Extreme Programming practices)",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:day3": "jest --testNamePattern=\"US2|Priority\"",
+    "start": "http-server . -p 8080",
+    "dev": "http-server . -p 8080 -o"
+  },
+  "keywords": [
+    "task-management",
+    "extreme-programming",
+    "javascript",
+    "html",
+    "css",
+    "priority-sorting",
+    "tdd",
+    "pair-programming"
+  ],
+  "author": "TaskEasy Team - Day 3: Robi (Driver), Zein (Navigator), Rian (Reviewer)",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "@testing-library/jest-dom": "^6.1.4"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"],
+    "collectCoverageFrom": ["src/**/*.js", "!src/setupTests.js"],
+    "coverageThreshold": {
+      "global": {
+        "branches": 75,
+        "functions": 75,
+        "lines": 75,
+        "statements": 75
+      }
+    }
+  }
+}

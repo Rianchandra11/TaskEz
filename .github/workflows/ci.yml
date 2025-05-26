@@ -1,0 +1,80 @@
+name: TaskEasy CI - Day 3
+
+on:
+  push:
+    branches: [ main, day-3-us2-priority-sorting ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-us2:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+        
+    - name: Run US2 Priority Sorting Tests
+      run: |
+        echo "🧪 Running Day 3 - US2 Priority Sorting Tests"
+        npm test -- --testNamePattern="US2"
+        
+    - name: Run All Tests (US1 + US2)
+      run: npm test
+      
+    - name: Test Coverage
+      run: npm run test:coverage
+        
+    - name: Validate Priority Sorting
+      run: |
+        echo "Validating US2 priority sorting functionality..."
+        
+        node -e "
+          const { JSDOM } = require('jsdom');
+          const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
+          global.document = dom.window.document;
+          global.window = dom.window;
+          global.localStorage = {
+            data: {},
+            getItem: function(key) { return this.data[key] || null; },
+            setItem: function(key, value) { this.data[key] = value; },
+            clear: function() { this.data = {}; }
+          };
+          
+          const { TaskManager } = require('./src/TaskManager.js');
+          const tm = new TaskManager();
+          
+          // Create tasks with different priorities
+          tm.createTask({ title: 'Low Task', priority: 'low', status: 'to-do' });
+          tm.createTask({ title: 'High Task', priority: 'high', status: 'to-do' });
+          tm.createTask({ title: 'Medium Task', priority: 'medium', status: 'to-do' });
+          
+          const sorted = tm.getTasksSortedByPriority();
+          
+          if (sorted[0].priority !== 'high') {
+            console.log('❌ Priority sorting failed - high priority not first');
+            process.exit(1);
+          }
+          
+          if (sorted[1].priority !== 'medium') {
+            console.log('❌ Priority sorting failed - medium priority not second');
+            process.exit(1);
+          }
+          
+          if (sorted[2].priority !== 'low') {
+            console.log('❌ Priority sorting failed - low priority not last');
+            process.exit(1);
+          }
+          
+          console.log('✅ US2 Priority sorting validation passed');
+          console.log('Sorted order:', sorted.map(t => t.priority + ': ' + t.title));
+        "
